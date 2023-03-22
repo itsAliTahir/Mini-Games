@@ -7,7 +7,7 @@ while chances > 0:
     guess = int(guess)
     if guess == num:
         print("You Have Guessed The Number Correctly!")
-        print("Your Total Score:", chances*20)
+        print("Total Score:", chances*20)
         chances = 0
     else:
         chances-=1        
@@ -18,4 +18,4 @@ while chances > 0:
 if guess != num:
     print("You Lost!")
     print("The Number Was ", num)    
-    print("Your Total Score: 0")
+    print("Total Score: 0")
