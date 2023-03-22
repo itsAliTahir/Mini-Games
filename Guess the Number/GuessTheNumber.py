@@ -17,5 +17,5 @@ while chances > 0:
         print("Chances Left:", chances, "\n")
 if guess != num:
     print("You Lost!")
-    print("The Number Was: ", num)    
+    print("The Number Was ", num)    
     print("Your Score: 0")
