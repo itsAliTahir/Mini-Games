@@ -8,7 +8,6 @@ while bullets > 1:
         print("\nUser Risked His Life And Pulled The Pistol Trigger")
         num = random.randint(1,bullets)
         num = int(num)
-        print(num)
         if num != 1:
             bet *= 1.5
             print("User Survived and Won", bet)
